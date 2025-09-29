@@ -10,7 +10,6 @@ import Button from "../components/Buttons/Button";
 import GhostButton from "../components/Buttons/GhostButton";
 import { useCart } from "../context/cart/CartProvider";
 import { useWishlist } from "../context/wishlist/WishlistProvider";
-
 // let w = window.innerWidth;
 
 const Wishlist = () => {
