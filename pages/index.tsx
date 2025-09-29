@@ -25,7 +25,6 @@ const Home: React.FC<Props> = ({ products }) => {
   const t = useTranslations("Index");
   const [currentItems, setCurrentItems] = useState(products);
   const [isFetching, setIsFetching] = useState(false);
-
   useEffect(() => {
     if (!isFetching) return;
     const fetchData = async () => {
