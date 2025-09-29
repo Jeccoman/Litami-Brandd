@@ -12,7 +12,6 @@ import { GetStaticProps } from "next";
 import { roundDecimal } from "../components/Util/utilFunc";
 import { useCart } from "../context/cart/CartProvider";
 import { useRouter } from "next/router";
-
 // let w = window.innerWidth;
 
 const ShoppingCart = () => {
