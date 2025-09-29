@@ -4,7 +4,6 @@ import { useTranslations } from "next-intl";
 
 import AppHeader from "../components/Header/AppHeader";
 import { GetStaticProps } from "next";
-
 const ComingSoon = () => {
   const t = useTranslations("Others");
   return (
