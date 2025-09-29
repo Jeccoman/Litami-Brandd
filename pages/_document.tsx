@@ -1,5 +1,4 @@
 import { Html, Head, Main, NextScript } from "next/document";
-
 const title = "Haru Fashion";
 const desc =
   "Haru Fashion e-commerce developed with Next.JS. Coded with 🖤 by Sat Naing (satnaing.dev).";
